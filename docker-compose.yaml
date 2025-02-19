@@ -1,0 +1,27 @@
+
+
+services:
+  flask:
+    build:
+      context: ./flask_app
+    ports:
+      - "5001:5000"
+    environment:
+      - DB_HOST = db
+      - DB_NAME = postgres
+      - DB_USER = airflow 
+      - DB_PASSWORD = airflow
+    depends_on:
+      - db
+
+  db:
+    image: postgres:latest
+    environment:
+      - DB_HOST = db
+      - DB_NAME= postgres
+      - DB_USER = airflow
+      - DB_PASSWORD = airflow
+    ports:
+      - "5433:5432"
+
+ 
