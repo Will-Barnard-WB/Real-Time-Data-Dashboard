@@ -42,10 +42,7 @@ This project is a **real-time data web dashboard** that:
 
 
 ### **Furture Improvements**
-- **React:** Displays data in an interactive dashboard.  
-- **Flask (for UI):** Provides an alternative interface for accessing data.  
-
-
+- **Websocket API* Real-time, two-way connection.
 
 ---
 
