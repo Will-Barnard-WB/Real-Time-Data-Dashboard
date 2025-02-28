@@ -1,3 +1,4 @@
-Flask
+flask
 psycopg2-binary
-Flask-Cors
+flask-Cors
+flask-socketio
