@@ -23,6 +23,10 @@ This project is a **real-time data web dashboard** that:
 
 ---
 
+
+![image](https://github.com/user-attachments/assets/d66b7942-9027-467a-8951-8c08bc6d9b52)
+
+
 ## 📂 Project Structure  
 ```bash
 ├── flask_app/                   # Flask API for accessing PostgreSQL
